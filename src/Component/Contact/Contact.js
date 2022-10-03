@@ -2,15 +2,15 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
+    <section className="contact section" id="contact">
+                <h2 className="section-title">Contact</h2>
 
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input"/>
-                        <input type="mail" placeholder="Email" class="contact__input"/>
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button"/>
+                <div className="contact__container bd-grid">
+                    <form action="" className="contact__form">
+                        <input type="text" placeholder="Name" className="contact__input"/>
+                        <input type="mail" placeholder="Email" className="contact__input"/>
+                        <textarea name="" id="" cols="0" rows="10" className="contact__input"></textarea>
+                        <input type="button" value="Enviar" className="contact__button button"/>
                     </form>
                 </div>
             </section>

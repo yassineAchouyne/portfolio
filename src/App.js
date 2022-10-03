@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      <main class="l-main">
+      <main className="l-main">
         <Home/>
         <About/>
         <Skills/>

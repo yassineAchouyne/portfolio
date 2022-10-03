@@ -2,30 +2,30 @@ import React from "react";
 
 export default function Home() {
   return (
-    <section class="home bd-grid" id="home">
-      <div class="home__data">
-        <h1 class="home__title">
+    <section className="home bd-grid" id="home">
+      <div className="home__data">
+        <h1 className="home__title">
           Hi,
           <br />
-          I'am <span class="home__title-color">Yassine Achouyne</span>
+          I'am <span className="home__title-color">Yassine Achouyne</span>
           <br /> Web Designer
         </h1>
 
-        <a href="#" class="button">
+        <a href="#" className="button">
           Contact
         </a>
       </div>
 
-      <div class="home__social">
-        <a href="" class="home__social-icon">
-          <i class="bx bxl-linkedin"></i>
+      <div className="home__social">
+        <a href="" className="home__social-icon">
+          <i className="bx bxl-linkedin"></i>
         </a>
-        <a href="" class="home__social-icon">
-          <i class="bx bxl-github"></i>
+        <a href="" className="home__social-icon">
+          <i className="bx bxl-github"></i>
         </a>
       </div>
 
-      <div className="home__img">
+      <div classNameName="home__img">
         <img src="img/yassine.png" />
       </div>
     </section>
