@@ -12,7 +12,7 @@ export default function About() {
                     </div>
                     
                     <div>
-                        <h2 className="about__subtitle">I'am Marlon</h2>
+                        <h2 className="about__subtitle">I'am Yassine Achouyne</h2>
                         <p className="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
                     </div>                                   
                 </div>

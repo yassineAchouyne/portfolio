@@ -1,0 +1,145 @@
+.navb {
+    /* height: 50px; */
+    width: 100%;
+    /* background-color: #1177ca; */
+    /* top: 0; */
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: var(--z-fixed);
+	background-color: #fff;
+	box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  }
+  
+  .navb > .navb-header {
+    display: inline;
+  }
+  
+  .navb > .navb-header > .navb-title img{
+    width: 115px;
+  }
+  
+  .navb > .navb-btn {
+    display: none;
+  }
+  
+  .navb > .navb-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+  .navb > .navb-links > ul li a{
+    display: block;
+    padding: 0 8px;
+    color: #fff;
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+
+  }
+  .navb > .navb-links > ul{
+    padding: 0;
+    margin-top: -45px;
+    list-style: none;
+    
+  }
+  .navb > .navb-links > ul li{
+    display: inline-block;
+    /* background-color: #54afa6; */
+    /* color: #54afab; */
+      border-radius: 5px;
+    
+    
+  }
+  .navb > .navb-links > ul li a{
+    color: #54afab;
+
+  }
+  .navb > .navb-links > ul li a:hover{
+      background-color: #54afab;
+      color: #eee;
+      border-radius: 5px;
+  }
+  
+  .navb > #navb-check {
+    display: none;
+  }
+
+ .navb .navb-links ul a.icon{
+ margin-left: 80px;
+ margin-right: 10px;
+ }
+
+ .navb .navb-links ul a i{
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 7px;
+    margin-left: 5px;
+ }
+
+  
+  @media (max-width:750px) {
+    .navb > .navb-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .navb > .navb-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .navb > .navb-btn > label:hover,.navb  #navb-check:checked ~ .navb-btn > label {
+      background-color: #54afa6;
+    }
+    .navb > .navb-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .navb > .navb-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #54afa6;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .navb > .navb-links > ul li a {
+      display: block;
+      width: 100%;
+    }
+
+    /*   */
+
+
+    
+      .navb > .navb-links > ul li{
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+        background-color: #54afa6;
+         
+      }
+      .navb > .navb-links > ul li a{
+          margin-left: 40%;
+      }
+      .navb .navb-links ul a.icon{
+        margin-left: 33%;
+      }
+
+    /*   */
+    .navb > #navb-check:not(:checked) ~ .navb-links {
+      height: 0px;
+    }
+    .navb > #navb-check:checked ~ .navb-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }

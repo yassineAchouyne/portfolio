@@ -6,6 +6,9 @@ import Skills from "./Component/Skills/Skills";
 import Work from "./Component/Work/Work";
 import Contact from "./Component/Contact/Contact";
 import Footer from "./Component/Footer/Footer";
+
+
+
 function App() {
   return (
     <div>
