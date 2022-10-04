@@ -9,9 +9,7 @@ export default function Skills() {
           <div>
             <h2 className="skills__subtitle">Profesional Skills</h2>
             <p className="skills__text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
-              optio id vero amet, alias architecto consectetur error eum eaque
-              sit.
+              
             </p>
             <div className="skills__data">
               <div className="skills__names">

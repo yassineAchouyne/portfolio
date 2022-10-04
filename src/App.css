@@ -25,7 +25,16 @@
   --z-back: -10;
   --z-fixed: 100;
 }
-
+.contact__input {
+	width: 100%;
+	font-size: var(--normal-font-size);
+	font-weight: var(--font-semi);
+	padding: 1rem;
+	border-radius: .5rem;
+	border: 1.5px solid #54afa6;
+	outline: none;
+	margin-bottom: var(--mb-4);
+  }
 @media screen and (min-width: 968px) {
   :root {
     --big-font-size: 3.5rem;
@@ -371,7 +380,7 @@ h1, h2, p {
   }
   
   /* ===== CONTACT =====*/
-  .contact__input {
+  /* .contact__input {
 	width: 100%;
 	font-size: var(--normal-font-size);
 	font-weight: var(--font-semi);
@@ -380,7 +389,7 @@ h1, h2, p {
 	border: 1.5px solid #54afa6;
 	outline: none;
 	margin-bottom: var(--mb-4);
-  }
+  } */
   
   .contact__button {
 	display: block;
@@ -542,5 +551,6 @@ h1, h2, p {
 	.home__img {
 	  width: 450px;
 	}
+	
   }
   

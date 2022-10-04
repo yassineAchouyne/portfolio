@@ -11,7 +11,7 @@ export default function Home() {
           <br /> developpeur web
         </h1>
 
-        <a href="#contact" className="button">
+        <a href="https://formsubmit.co/el/xeyira" className="button">
           Contact
         </a>
       </div>

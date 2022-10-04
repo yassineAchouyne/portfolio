@@ -13,7 +13,10 @@ export default function About() {
                     
                     <div>
                         <h2 className="about__subtitle">I'am Yassine Achouyne</h2>
-                        <p className="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                        <p className="about__text">Student at ISTA NTIC SAFI on the
+web programming (front-end && back-end).
+I am now looking for an internship.
+to develop my skills.</p>           
                     </div>                                   
                 </div>
             </section>
